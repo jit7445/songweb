@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="/css/responsive.css">
+</head>
+
+<body>
+    <!-- <img src="logo.svg" alt=""> -->
+    <div class="container flex bg-black">
+        <div class="left flex bg-black rounded">
+            <div class="close">
+                <img src="icons/close.svg"  class="invert" alt="">
+            </div>
+            <div class="home bg-grey m-1 p-1 rounded">
+                <div class="logo m-1">
+                    <img src="icons/logo.svg" alt="">
+                </div>
+                <ul>
+                    <li><img src="icons/home.svg" class="invert" alt="">Home</li>
+                    <li><img src="icons/search.svg" class="invert" alt="">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img src="icons/lib.svg" class="invert" alt="">
+                    <h3>Your Library</h3>
+                   
+                </div>
+                <div class="songlist1">
+                    <ul>
+                        <li class="list">
+                            <img src="icons/music.svg" alt="">
+                            <div class="info">
+                                <div>song name</div>
+                                <div>song artist</div>
+
+                            </div>
+                           <div class="playnow">
+                            <span>play now</span>
+                            <img src="icons/play.svg" class="invert" alt="">
+                           </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/" id="" class="" data-encore-id="textLink"><span data-encore-id="type">Legal</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/privacy/" id="" class="" data-encore-id="textLink"><span data-encore-id="type">Privacy Center</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/" id="" class="" data-encore-id="textLink"><span data-encore-id="type">Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/" id="" class="" data-encore-id="textLink"><span data-encore-id="type">Cookies</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3" id="" class="" data-encore-id="textLink"><span data-encore-id="type">About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/" id="" class="" data-encore-id="textLink"><span data-encore-id="type">Accessibility</span></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="right bg-grey rounded ">
+            <div class="header">
+                <div class="nav">
+                    <div class="humburgercontainer flex">
+                    <img src="icons/hamburger.svg" class="invert humburger" alt="">
+                  <div class="flex left_right_icons">
+                    <img src="icons/left.svg" class="arrow invert" alt="">
+                    
+                    <img src="icons/right.svg" class="arrow invert" alt="">
+                  </div>
+                  </div>
+
+                </div>
+                <div class="button">
+                    <button class="intract"><span>Signup</span></button>
+                    <button class="intract"><span>login</span></button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h2>spotify playlist</h2>
+                <div class="card_container">
+                    
+                    
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="song_status">
+                        <div class="songinfo">
+                        
+                        </div>
+                        <div class="playbutton">
+                            <button class="songbutton"><img width="35" id="previous" src="icons/prev.svg" class="invert" alt=""></button>
+                           <button class="songbutton"><img  width="35"id="play11" src="icons/play.svg"  class="invert" alt=""></button> 
+                            <button class="songbutton"><img width="35"id="next" src="icons/next.svg" class="invert" alt=""></button>
+                        </div>
+                        <div class="times">
+                            
+                        </div>
+                        <div class="volume">
+                            <img src="icons/volume.svg" style="cursor: pointer;">
+                            <div class="range">
+                                <input type="range" name="vol" id="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="/js/index.js" class="invert"></script>
+</body>
+
+</html>
